@@ -2,7 +2,7 @@ import firebase from 'firebase';
 
 export const initializeFirebase = () => {
   firebase.initializeApp({
-    messagingSenderId: 'your messagingSenderId' // troque pelo seu sender id 
+    messagingSenderId: '746451677638' // troque pelo seu sender id 
   });
 
   // use other service worker
