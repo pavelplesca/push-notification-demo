@@ -19,7 +19,7 @@
   "main": "index.js",
   "repository": "https://github.com/Leocardoso94/push-notification-demo.git",
   "author": "Leonardo Cardoso <leocardosoti@gmail.com>",
-  "homepage": "https://leocardoso94.github.io/push-notification-demo",
+  "homepage": ".",
   "license": "MIT",
   "devDependencies": {
     "gh-pages": "^1.2.0"
