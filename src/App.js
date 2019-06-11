@@ -25,12 +25,13 @@ const App = () => (
 );
 
 function Home() {
-	const QSIApi = window['QSI'] && window['QSI'].API;
-	QSIApi && QSIApi.load().done(QSIApi.run())
+	
 	return <h2>Home</h2>;
   }
 
 function About() {
+	const QSIApi = window['QSI'] && window['QSI'].API;
+	QSIApi && QSIApi.load().done(QSIApi.run());
 	return <h2>About</h2>;
   }
   
