@@ -21,6 +21,7 @@ export class AppAuthNService {
       response_type: 'code',
       response_mode: 'query',
       scope: Constants.clientScope,
+	  automaticSilentRenew: true,
       filterProtocolClaims: true,
       loadUserInfo: true
     };
